@@ -1,0 +1,5 @@
+- Drink é uma interface que define os métodos get_nome() e get_preco().
+- DrinkDecorator é uma classe abstrata que herda de Drink e possui um atributo drink que representa o drink ao qual o decorator será aplicado. 
+Além disso, ela implementa os métodos get_nome() e get_preco().
+- DrinkBase é uma implementação concreta de Drink que representa um drink base sem aditivos. 
+Ela possui os atributos nome e preco_base e implementa os métodos get_nome() e get_preco_base().
